@@ -17,7 +17,7 @@ Hypermanager is a server magnament tool, that allow you to manage all your Linux
 
   - Clone this respository to your web server directory.
   - Create new Database and import this script [DB]
-  - Replace this string "https://hypermanager.net/" with your "http://directory_url" in some files (User rplace in files from notepad++ or another text editor).
+  - Replace this string "https://hypermanager.net/" with your "http://directory_url/" in some files (User rplace in files from notepad++ or another text editor).
   - Modify **lib/info/notify.php** with your <mail> and <telegram> info.
 
    [db]: <https://sok.sx/hypermanager.sql>
