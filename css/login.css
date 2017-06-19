@@ -1,0 +1,166 @@
+/* Header */
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+.btn-default.focus, .btn-default:focus {
+    color: #fafafa;
+}
+
+.register-group {
+    padding-top: 5px;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-sm{
+    min-width: 314px;
+}
+
+#login-response {
+    height: 0px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#large-header {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/loginbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+input.transparent-input, button.transparent-btn{
+    background-color:transparent !important;
+    border: 1px solid #f9f1e9 !important;
+    color: #f9f1e9;
+}
+
+button.transparent-btn:hover{
+    background-color: #f9f1e9 !important;
+    border: 1px solid #DAD3CC !important;
+    color: #000;
+}
+
+/* do not group these rules */
+input.transparent-input::-webkit-input-placeholder {
+    color: #DAD3CC;
+}
+input.transparent-input:-moz-placeholder {
+    /* FF 4-18 */
+    color: #DAD3CC;
+}
+input.transparent-input::-moz-placeholder {
+    /* FF 19+ */
+    color: #DAD3CC;
+}
+input.transparent-input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #DAD3CC;
+}
+
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.container {
+    min-width: 315px;
+    max-width: 315px;
+    max-height: 220px;
+}
+
+.container div {
+    padding: 5px;
+}
+
+.login-div {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.demo-1 .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+    font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+    .demo-1 .main-title {
+        font-size: 3em;
+    }
+}
+
+.modal-header {
+    border-radius: 0px;
+    background: #3B414A;
+    color: #fafafa;
+}
+
+#server-response {
+    margin-top: 10px;
+    margin-bottom: -20px;
+    border: none;
+    height: 0px;
+    color: #fafafa;
+    display: none;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.close, .close:hover, .close:focus {
+    color: #fafafa;
+}
+
+.modal-content {
+    background-color: #444C57;
+    border-radius: 0px;
+}

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /lib/
+Disallow: /js/
+Sitemap: https://hypermanager.net/sitemap.xml

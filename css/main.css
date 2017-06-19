@@ -1,0 +1,281 @@
+.center-seudo-form li {
+    padding: 5px;
+    text-align: center;
+}
+#add-li {
+    padding: 0;
+    text-align: left;
+}
+#morehddstatus {
+    margin-top: 10px; 
+}
+.col-md-4.col-sm-4 {
+    padding: 0px;
+}
+#server-response {
+    border: none;
+    height: 0px;
+    color: #fafafa;
+    display: none;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.modal-body {
+    text-align: center;
+}
+#hdd-moreinfo-footer {
+    color: #fafafa;
+    height: 15px;
+}
+
+.btn, .form-control {
+    border-radius: 1px;
+}
+
+.edit-btn {
+    border-left: 1px solid;
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    left: 79%;
+    cursor: pointer;
+}
+
+.delete-btn {
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    left: 91%;
+    cursor: pointer; cursor: hand;
+}
+.delete-btn:hover, .edit-btn:hover {
+    background-color: #fafafa;
+    border: 0 solid;
+}
+
+.loading-modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('https://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .loading-modal {
+    display: block;
+}
+
+
+
+#add-server > input {
+    margin-bottom: 10px;
+}
+
+/*.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}*/
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-sm{
+    min-width: 314px;
+}
+
+@media (min-width: 992px){
+    .col-md-offset-1 {
+        margin-left: 13.4%;
+    }
+}
+
+.modal-header {
+    border-radius: 0px;
+    background: #3B414A;
+}
+
+.close, .close:hover, .close:focus {
+    color: #fafafa;
+}
+
+.modal-content {
+    background-color: #444C57;
+    border-radius: 0px;
+}
+
+.seudo-h6 {
+    color: #fafafa;
+}
+
+.custom-set {
+    margin: 10px;
+    width: 92%;
+}
+.checkbox * {
+    color: #fafafa;
+}
+.checkbox {
+    text-align: center;
+    /*margin-left: 35%;*/
+}
+#refresh-time {
+    margin: 20px;
+}
+.accept-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+.server-chart {
+    width: 120px !important;
+    height: 120px !important;
+}
+.text-box {
+    position: relative;
+    padding: 5px 20px;
+}
+#userinfo-alert {
+    height: 30px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav .open > a{
+    background-color: #424A5D   ; 
+}
+
+a#getidtg {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#bot-tg-link{
+    display: inline;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.col-md-12.col-sm-12.box0 {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px){
+    .col-sm-4 {
+        width: auto;
+    }  
+}
+
+@media (min-width: 768px){
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: none;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
+}
+@media (min-width: 992px){
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+}
+
+/*LANDING PAGE*/
+#server-show {
+    display: none;
+}
+
+
+h4.select-server-landing-info {
+    margin-left: 6%;
+}
+
+.col-md-12.col-sm-12.landing-add {
+    margin-bottom: 10px;
+}
+
+.col-md-12.col-sm-12.first-info {
+    margin-bottom: 10px;
+}
+
+.col-md-12.col-sm-12.second-info {
+    margin-bottom: 11px;
+}
+
+.col-md-12.col-sm-12.second-info.last-info {
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+img#hdd-img-landing {
+}
+
+h5.img-desc-landing {
+    line-height: 16pt;
+}
+
+.row.mtbox-landing {
+    margin-top: 100px;
+}
+
+div#landing-page * {
+    line-height: 24px;
+}
+
